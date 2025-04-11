@@ -62,4 +62,5 @@ return {
   vim.keymap.set('n', '<leader>os', vim.cmd.ObsidianSearch),
 
   vim.keymap.set('n', '<leader>q', vim.cmd.Oil),
+  vim.keymap.set('v', '<leader>p', '"_dP'),
 }
